@@ -2,6 +2,26 @@
 
 @theme {
   --color-rage: #b91c1c;
-  --color-carnival-black: #0a0a0a;
-  --color-mortadela: #f472b6;
+  --color-carnival-black: #0f172a;
+  --color-mortadela: #fb7185;
+  --color-gold: #f59e0b;
+}
+
+@layer base {
+  body {
+    @apply bg-(--color-carnival-black) text-white antialiased;
+    background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+    background-attachment: fixed;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
 }
