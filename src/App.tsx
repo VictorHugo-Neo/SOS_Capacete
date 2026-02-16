@@ -76,7 +76,7 @@ export default function App() {
           <div className="grid gap-4">
              {/* Você pode substituir o texto por uma imagem do print do banco aqui */}
              <div className="bg-zinc-900 p-4 rounded-xl border border-zinc-800">
-                <p className="text-zinc-400 italic"><img src="/src/assets/prints/image.png" alt="Print do Banco" className="w-full h-auto rounded-lg" /></p>
+                <p className="text-zinc-400 italic"><img src="/public/prints/image.png" alt="Print do Banco" className="w-full h-auto rounded-lg" /></p>
              </div>
           </div>
         </section>
