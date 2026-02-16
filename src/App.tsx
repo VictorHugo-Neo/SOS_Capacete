@@ -71,7 +71,7 @@ export default function App() {
         {/* Mural de Prints */}
         <section className="pb-32">
           <h2 className="text-2xl font-black uppercase mb-8 italic border-b-2 border-zinc-800 pb-2">
-            Pessoas que tiveram pena de mim:
+            Pessoas que apoiam a causa:
           </h2>
           <div className="grid gap-4">
              {/* Você pode substituir o texto por uma imagem do print do banco aqui */}
