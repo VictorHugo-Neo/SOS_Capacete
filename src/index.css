@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --color-rage: #b91c1c;
+  --color-carnival-black: #0a0a0a;
+  --color-mortadela: #f472b6;
+}
