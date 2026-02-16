@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { PixButton } from './components/PixButton';
 import { DynamicSection } from './components/DynamicSection';
-import { SupportMessage } from './components/SupportMessage';
 
 export default function App() {
   return (
