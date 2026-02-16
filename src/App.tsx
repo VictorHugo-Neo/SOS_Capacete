@@ -45,7 +45,7 @@ export default function App() {
           Voltei para casa sem capacete, rezando para não ser parado. Passei pelos policiais com aquela cara de "não fala comigo que eu tô no meu limite".
           Se o azar desse prêmio, eu já estaria aposentado em Ibiza agora.
         </DynamicSection>
-        
+
         <motion.div
           whileHover={{ scale: 1.02 }}
           className="my-32 p-12 bg-zinc-900 border-2 border-(--color-mortadela) rounded-3xl relative"
@@ -90,6 +90,14 @@ export default function App() {
               <p className="text-zinc-500 text-xs font-mono mb-4 uppercase tracking-widest">Evidência #01 // Mensagem Recebida</p>
               <img
                 src="/prints/image.png"
+                alt="Print do Banco com mensagem de apoio"
+                className="w-full h-auto rounded-lg grayscale hover:grayscale-0 transition-all duration-500"
+              />
+            </div>
+            <div className="bg-zinc-900 p-6 rounded-2xl border-2 border-zinc-800 hover:border-rose-500 transition-colors shadow-2xl">
+              <p className="text-zinc-500 text-xs font-mono mb-4 uppercase tracking-widest">Evidência #02 // Mensagem Recebida</p>
+              <img
+                src="/prints/pix2.png"
                 alt="Print do Banco com mensagem de apoio"
                 className="w-full h-auto rounded-lg grayscale hover:grayscale-0 transition-all duration-500"
               />
