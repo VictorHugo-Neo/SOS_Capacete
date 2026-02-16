@@ -41,6 +41,11 @@ export default function App() {
           Os capacetes tinham ganhado pernas. Alguém olhou para aqueles dois itens surrados e pensou: "É hoje que eu mudo de vida!". Fiquei ali, olhando para o guidão vazio com cara de quem perdeu o ônibus.
         </DynamicSection>
 
+        <DynamicSection step="Passo 03" title="O Role da Vergonha">
+          Voltei para casa sem capacete, rezando para não ser parado. Passei pelos policiais com aquela cara de "não fala comigo que eu tô no meu limite".
+          Se o azar desse prêmio, eu já estaria aposentado em Ibiza agora.
+        </DynamicSection>
+        
         <motion.div
           whileHover={{ scale: 1.02 }}
           className="my-32 p-12 bg-zinc-900 border-2 border-(--color-mortadela) rounded-3xl relative"
@@ -52,11 +57,6 @@ export default function App() {
             O ladrão me levou os capacetes, mas o chapeiro levou minha dignidade.
           </p>
         </motion.div>
-
-        <DynamicSection step="Passo 03" title="O Role da Vergonha">
-          Voltei para casa sem capacete, rezando para não ser parado. Passei pelos policiais com aquela cara de "não fala comigo que eu tô no meu limite".
-          Se o azar desse prêmio, eu já estaria aposentado em Ibiza agora.
-        </DynamicSection>
 
         {/* Call to Action */}
         <section className="bg-white text-black p-12 rounded-[2rem] text-center my-32">
