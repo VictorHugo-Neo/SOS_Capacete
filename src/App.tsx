@@ -102,6 +102,14 @@ export default function App() {
                 className="w-full h-auto rounded-lg grayscale hover:grayscale-0 transition-all duration-500"
               />
             </div>
+            <div className="bg-zinc-900 p-6 rounded-2xl border-2 border-zinc-800 hover:border-rose-500 transition-colors shadow-2xl">
+              <p className="text-zinc-500 text-xs font-mono mb-4 uppercase tracking-widest">Evidência #03 // Mensagem Recebida</p>
+              <img
+                src="/prints/pix3.png"
+                alt="Print do Banco com mensagem de apoio"
+                className="w-full h-auto rounded-lg grayscale hover:grayscale-0 transition-all duration-500"
+              />
+            </div>
           </div>
         </section>
       </main>
